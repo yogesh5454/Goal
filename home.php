@@ -38,7 +38,7 @@ $data = mysqli_fetch_assoc($result);
     <!-- this is navbar -->
     <?php include('include/nav.php') ?>
     <!-- end of navbar -->
-    <h1 style="text-align:center;">-Set Goal-</h1>
+    <h1 style="text-align:center; color:darkgreen;">-Set Goal-</h1>
 
     <div class="container">
         <div class="row d-flex justify-content-center">
@@ -48,7 +48,7 @@ $data = mysqli_fetch_assoc($result);
 
                 <form method="POST" action="db/add-goal.php">
                     <div class="md-3">
-                        <label style="font-size:20px; font-weight:bold;" class="form-label">Goal Title:
+                        <label style="font-size:20px; font-weight:bold; color: green" class="form-label">Goal Title:
                         </label>
                         <input placeholder="Title" type="text" style="background-color: rgb(255, 255, 131);" class="form-control " name="title">
                     </div>
@@ -56,7 +56,7 @@ $data = mysqli_fetch_assoc($result);
 
                     <div class="md-3">
                         <br>
-                        <label style="font-size:20px; font-weight:bold;" class="form-label">Goal
+                        <label style="font-size:20px; font-weight:bold;color:green" class="form-label">Goal
                             Description:
                         </label>
                         <textarea id="news" placeholder="Type some texts..." type="text" class="form-control"
@@ -65,7 +65,7 @@ $data = mysqli_fetch_assoc($result);
 
                     <div class="md-3">
                         <br>
-                        <label style="font-size:20px; font-weight:bold;" class="form-label">Goal
+                        <label style="font-size:20px; font-weight:bold;color:green" class="form-label">Goal
                             Description:
                         </label>
                         <input name="date" style="background-color: rgb(255, 255, 131);" type="date" class="form-control ">
@@ -73,7 +73,7 @@ $data = mysqli_fetch_assoc($result);
 
 
                     <div class="md-3">
-                        <label style="font-size:20px; ; font-weight:bold;" class="form-label">Status:</label>
+                        <label style="font-size:20px; ; font-weight:bold;color:green" class="form-label">Status:</label>
                         <select name="status" style="background-color: rgb(255, 255, 131);" class="form-control ">
                             <option value="Incomplete" selected>Incomplete</option>
                             <option value="Started">Started</option>
