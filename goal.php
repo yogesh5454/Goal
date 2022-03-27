@@ -60,7 +60,7 @@ $goalResult = mysqli_query($conn , $goalQuery);
         <div class="row d-flex justify-content-center">
 
             <div class="col-md-8">
-                <table class="table">
+                <table style="color: green;" class="table">
                     <th>Goal Title</th>
                     <th>Description</th>
                     <th>Goal Accomplish Date</th>
