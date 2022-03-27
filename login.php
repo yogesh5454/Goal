@@ -9,10 +9,10 @@
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
-<body>
+<body style="background-color: lightcyan;">
 
     <div class="overlay"></div>
     <!-- login -->
@@ -22,13 +22,13 @@
                 <form method="post" action="db/login.php">
                     <h2>Login:</h2>
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Email </span>
-                        <input type="email" name="email" class="form-control" placeholder="Email" aria-label="email"
+                        <span class="input-group-text" style="background-color: darkgray;" id="basic-addon1">Email </span>
+                        <input type="email" style="background-color: whitesmoke;" name="email" class="form-control" placeholder="Email" aria-label="email"
                             aria-describedby="basic-addon1">
                     </div>
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Password </span>
-                        <input type="password" placeholder="Password" name="password" class="form-control"
+                        <span class="input-group-text" style="background-color: darkgray;" id="basic-addon1">Password </span>
+                        <input type="password" style="background-color: whitesmoke;" placeholder="Password" name="password" class="form-control"
                             aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                     <hr>

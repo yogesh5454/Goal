@@ -32,7 +32,7 @@ $data = mysqli_fetch_assoc($result);
 
 </head>
 
-<body>
+<body style="background-color: lightgrey;">
 
     <div class="overlay"></div>
     <!-- this is navbar -->
@@ -50,7 +50,7 @@ $data = mysqli_fetch_assoc($result);
                     <div class="md-3">
                         <label style="font-size:20px; font-weight:bold;" class="form-label">Goal Title:
                         </label>
-                        <input placeholder="Title" type="text"  class="form-control " name="title">
+                        <input placeholder="Title" type="text" style="background-color: rgb(255, 255, 131);" class="form-control " name="title">
                     </div>
 
 
@@ -60,7 +60,7 @@ $data = mysqli_fetch_assoc($result);
                             Description:
                         </label>
                         <textarea id="news" placeholder="Type some texts..." type="text" class="form-control"
-                            name="description"></textarea>
+                       name="description"></textarea>
                     </div>
 
                     <div class="md-3">
@@ -68,13 +68,13 @@ $data = mysqli_fetch_assoc($result);
                         <label style="font-size:20px; font-weight:bold;" class="form-label">Goal
                             Description:
                         </label>
-                        <input name="date" type="date" class="form-control ">
+                        <input name="date" style="background-color: rgb(255, 255, 131);" type="date" class="form-control ">
                     </div>
 
 
                     <div class="md-3">
                         <label style="font-size:20px; ; font-weight:bold;" class="form-label">Status:</label>
-                        <select name="status" class="form-control ">
+                        <select name="status" style="background-color: rgb(255, 255, 131);" class="form-control ">
                             <option value="Incomplete" selected>Incomplete</option>
                             <option value="Started">Started</option>
                             <option value="Progress">Progress</option>
